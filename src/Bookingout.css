@@ -1,0 +1,94 @@
+.bookingout{
+    background-color: red;
+    height: 100vh;
+}
+
+.bus{
+    border: 2px solid black;
+    height: 250px;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.btn-book{
+    color: white;
+    background-color: green;
+    padding: 20px;
+    /* float: right; */
+    margin-top: 20px;
+    /* margin-right: 30px; */
+    border: none;
+}
+
+.double-row{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.singled-row{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+
+}
+
+.bus-img1{
+    width: 150px;
+    height: 150px;
+    padding-left: 45%;
+    transform-style: preserve-3d;
+    /* animation: fadeIn 1s forwards; */
+    animation-delay: 1s;
+    animation: bounceInLeft 1s 1.8s backwards;
+}
+
+.seat{
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 600;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.seat:hover{
+    background-color: chartreuse;
+}
+
+.seat:active{
+    background-color: blanchedalmond;
+}
+
+.showseat{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 25px;
+
+}
+.btnflex{
+    display: flex;
+    justify-content: space-around;
+}
+.bookedbus{
+    color:  white;
+    padding-top: 20px;
+    border-bottom: 2px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bookedbus > ul {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.bookedbus > ul > li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}

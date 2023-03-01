@@ -1,0 +1,39 @@
+.header{
+    height: 60px;
+    background-color: #c32e23;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+.img-contain{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.logoimg{
+    height: 75px;
+}
+
+.logo-header{
+    padding-left: 8px;
+    color: white;
+}
+
+.navbar > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar > ul > li {
+    list-style: none;
+    padding-right: 20px;
+    color: white;
+    font-weight: 500;
+
+}
+

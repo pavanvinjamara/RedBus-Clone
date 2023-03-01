@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+
+.home-header{
+    background-color: #c32e23;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-data{
+    display: grid;
+    grid-template-rows: auto auto;
+   
+
+}
+
+.img-bg2{
+    padding-left: 40%;
+    transform-style: preserve-3d;
+    /* animation: fadeIn 1s forwards; */
+    animation-delay: 1s;
+    animation: bounceInLeft 1s 1.8s backwards;
+}
+
+.bg-heading{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-family: "Charlie";
+    /* animation: rubberBand 1s; */
+}
+
+.bg-heading:hover{
+    animation: rubberBand 1s; 
+}
+
+.img-bg1{
+
+    animation: bounceInRight 1s  backwards;
+}
